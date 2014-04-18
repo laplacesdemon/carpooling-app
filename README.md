@@ -39,11 +39,13 @@ Sorry, use-cases are in Turkish.
 Data Dictionary (For use-cases)
 -------------------------------
 
-**Yolculuk/Ride**: A’dan B’ye olan yolculuk.
-**Sofor/Driver**: araci olan kullanici
-**Yolcu/Passenger**: araci olmayan kullanici
-**Rating**: 2 tip rating var. 1.cisi kullanicilarin 5 uzerinden verdigi rating. 2.cisi sistemin kullanicilarin sozunde durup durmadigini hesaplayan 100 uzerinden verilen rating. 100: guvenilir. 0: guvenilmez.
-**Verified User**: En az bir basarili yolculuk yapmis kullanici.
+Term|Description
+----|-----------
+Yolculuk/Ride|A’dan B’ye olan yolculuk.
+Sofor/Driver|araci olan kullanici
+Yolcu/Passenger| araci olmayan kullanici
+Rating|2 tip rating var. 1.cisi kullanicilarin 5 uzerinden verdigi rating. 2.cisi sistemin kullanicilarin sozunde durup durmadigini hesaplayan 100 uzerinden verilen rating. 100: guvenilir. 0: guvenilmez.
+Verified User| En az bir basarili yolculuk yapmis kullanici.
 
 Use Case 1: Sofor Yolculuk Yaratiyor
 ------------------------------------
