@@ -51,7 +51,9 @@ Use Case 1: Sofor Yolculuk Yaratiyor
 ------------------------------------
 
 **Aciklama**: Sofor yolculuk yaratiyor
+
 **Roller: Sofor, Sistem
+
 **Flow of events**:
  * Sofor “Yolculuk yarat” ekranini aciyor.
  	* Harita uzerinde baslangic nokrasi seciyor.
