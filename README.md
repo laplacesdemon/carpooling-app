@@ -182,6 +182,13 @@ Use Case 7: Sofor yolculuk ilanini duzenliyor
 
 TODO
 
+Class Diagram
+=============
+
+This is how model layer look.
+
+![Class Diagram](https://raw.githubusercontent.com/laplacesdemon/carpooling-app/master/design/ClassDiagram.png)
+
 Rest API
 ========
 
