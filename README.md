@@ -52,7 +52,7 @@ Use Case 1: Sofor Yolculuk Yaratiyor
 
 **Aciklama**: Sofor yolculuk yaratiyor
 
-**Roller: Sofor, Sistem
+**Roller**: Sofor, Sistem
 
 **Flow of events**:
  * Sofor “Yolculuk yarat” ekranini aciyor.
@@ -78,7 +78,9 @@ Use Case 2: Yolcu yolculuk aramasi yapiyor
 ------------------------------------------
 
 **Aciklama**: Yolcu yolculuk aramasi yapiyor
+
 **Roller**: Yolcu, Sistem
+
 **Flow of events**:
  * Yolcu “Yolculuk Arama” ekranini aciyor.
  * Harita uzerinden baslangic noktasi (araca binmek istedigi nokta) seciyor.
@@ -95,10 +97,13 @@ Use Case 3: Sofor ve yolcu yolculugu tamamliyor
 -----------------------------------------------
 
 **Aciklama**: Sofor yolculugu tamamliyor
+
 **Roller**: Sofor, Yolcu, Sistem
+
 **Pre conditions**:
  * Sofor yolculuk olusturdu, listeledi
  * Yolcu(lar) yolculuga kayit oldu.
+
 **Flow of events**:
  * Sistem, sofore yolcu kayitlarini gonderiyor. push notification ile.
  * Sofor yolculari kabul ediyor.
@@ -112,6 +117,7 @@ Use Case 3: Sofor ve yolcu yolculugu tamamliyor
   * Yolculuga katilanlar hakkinda yorum yapilabliyor.
  * Sistem yolcularin provizyonunu onayliyor (parayi cekiyor).
  * Sistem yolculuga katilanlari “Verified User” haline getiriyor. (yolculuk basarili oldugu icin)
+
 **Yolculuk Basarisiz Oluyor**:
  * Yolculuk sonunda, yolcu ya da sofor “Onay ekrani”nda, yolculugu “Basarisiz” olarak isaretliyor.
  * Sistem yolculuga katilan herkese yolculugun basarisiz olma sebebini yazabilecegi “Basarisiz Yolculuk” ekrani cikartiyor.
@@ -122,10 +128,13 @@ Use Case 4: Sofor yolcuyu onayliyor
 -----------------------------------
 
 **Aciklama**: Sofor yolcuyu onayliyor
+
 **Roller**: Sofor, Yolcu, Sistem
+
 **Pre conditions**:
  * Sofor yolculuk olusturdu, listeledi
  * Yolcu(lar) yolculuga kayit oldu.
+
 **Flow of events**:
  * Sistem sofore, yolcularin kayit oldugu anda, push notification gonderiyor.
  * Sofor accept/reject ekranina gelip, pending durumundaki istekleri gosteriyor.
@@ -136,6 +145,7 @@ Use Case 4: Sofor yolcuyu onayliyor
  * Yolculugu onaylama linki
  * Sofor yolcuyu onayliyor.
  * Yolcuya onayin gerceklestigine dair bir push notification gidiyor.
+
 **Onay vermeme durumu**:
  * Yolcuya onay verilmedigi mesaji gidiyor.
  * Cekilen Provizyon iptal ediliyor.
@@ -144,11 +154,14 @@ Use Case 5: Yolcu yolculuga kaydoluyor
 --------------------------------------
 
 **Aciklama**: Yolcu yolculuga kaydoluyor
+
 **Roller**: Yolcu, Sistem
+
 **Pre conditions**: 
  * Use Case #2
  * Yolcu yolculuk aramasi gerceklestirdi
  * Sistem aranan kriterlerde birden fazla yolculuk buldu ve “Yolculuk sec” ekranini acti.
+
 **Flow of events**:
  * Sistem yolculuklari listeledi. 
  * Yolcu, listeden bir yolculuk secti
