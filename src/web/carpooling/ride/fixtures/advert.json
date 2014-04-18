@@ -1,0 +1,48 @@
+[
+    {
+        "fields": {
+            "end_address": "Cicek Pasaji, Beyoglu, Turkey",
+            "end_latitude": 41.034533,
+            "end_longitude": 28.979,
+            "end_radius": 4.0,
+            "start_address": "Hac\u0131 \u015e\u00fckr\u00fc Sk 1-19, Kadikoy, Turkey",
+            "start_latitude": 40.9868,
+            "start_longitude": 29.027217,
+            "start_radius": 4.0
+        },
+        "model": "ride.route",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "byweekday": "",
+            "date": "2013-12-25T13:32:05Z",
+            "is_recurring": false
+        },
+        "model": "ride.schedule",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "brand": "BMW",
+            "model": "3.16i",
+            "seat_capacity": 3,
+            "year": 2001
+        },
+        "model": "ride.vehicle",
+        "pk": 1
+    },
+    {
+        "fields": {
+            "currency": "TRY",
+            "driver": 2,
+            "price": 40,
+            "offerred_seats": 2,
+            "route": 1,
+            "schedule": 1,
+            "vehicle": 1
+        },
+        "model": "ride.rideadvert",
+        "pk": 1
+    }
+]

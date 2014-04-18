@@ -1,0 +1,56 @@
+[
+    {
+        "fields": {
+            "date_joined": "2013-12-25T12:12:34.852Z",
+            "email": "ahmet@yolarkadasi.com",
+            "first_name": "",
+            "groups": [],
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "last_login": "2013-12-25T12:12:34.852Z",
+            "last_name": "",
+            "password": "pbkdf2_sha256$12000$yuwep56xgY4v$tc+pjVND0R7WZhJVIuB96fwc+4zS0Uf+NedAYVY6xVE=",
+            "user_permissions": [],
+            "username": "ahmet"
+        },
+        "model": "auth.User",
+        "pk": 2
+    },
+    {
+        "fields": {
+            "date_joined": "2013-12-25T12:13:10.519Z",
+            "email": "veli@kavlak.com",
+            "first_name": "",
+            "groups": [],
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "last_login": "2013-12-25T12:13:10.519Z",
+            "last_name": "",
+            "password": "pbkdf2_sha256$12000$kzSdkgjgSnf6$W5NgzlDYlwevES81CxPam4i/9wcDlv6ULHJybFOSYz4=",
+            "user_permissions": [],
+            "username": "veli"
+        },
+        "model": "auth.User",
+        "pk": 3
+    },
+    {
+        "fields": {
+            "date_joined": "2013-12-25T12:13:58.934Z",
+            "email": "dirkkuyt@gmail.com",
+            "first_name": "",
+            "groups": [],
+            "is_active": true,
+            "is_staff": false,
+            "is_superuser": false,
+            "last_login": "2013-12-25T12:13:58.934Z",
+            "last_name": "",
+            "password": "pbkdf2_sha256$12000$93vUM7iUhHpN$ocGrQfM5r5t9yLZaE2KtQ6gDmRKxXCIYRZpwQ3fYSRI=",
+            "user_permissions": [],
+            "username": "dirkkuyt"
+        },
+        "model": "auth.User",
+        "pk": 4
+    }
+]
